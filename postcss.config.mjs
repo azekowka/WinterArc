@@ -1,5 +1,8 @@
+import tailwindcss from "tailwindcss";
+import autoprefixer from "autoprefixer";
+
 const config = {
-  plugins: [],
+  plugins: [tailwindcss(), autoprefixer()],
 };
 
 export default config;
